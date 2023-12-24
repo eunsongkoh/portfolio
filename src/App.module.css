@@ -1,0 +1,23 @@
+body {
+  overflow-x: hidden;
+}
+
+.intro {
+  height: 100vh;
+  width: 100vw;
+}
+
+.theTitle {
+  text-align: center;
+  justify-content: center;
+  margin-top: 10em;
+}
+
+.title {
+  margin-top: 1em;
+}
+
+.about {
+  height: 100vh;
+  width: 100vw;
+}

@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 5em;
+  color: #edb5f7;
+}
+
+h2 {
+  text-align: left;
+  padding-left: 1em;
+  color: #edb5f7;
+  /* color: #bdb4ff; */
+  font-size: 2em;
+}
+
+h3 {
+  color: #fffeec;
+}
+
+h5 {
+  color: #fffeec;
+  padding-left: 2em;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+}
+
+h4 {
+  color: #fffeec;
+  text-align: left;
+}
+
+.about h4 {
+  font-size: 1.2em;
+  line-height: 1;
+  padding: 1em;
+}
+
+.about h3 {
+  padding: 1em;
+  font-size: 1.4em;
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+  color: #fffeec;
+}
+
+big {
+  font-size: 35px;
+  background-color: #8693ab;
+}
+
+.typed {
+  justify-content: center;
+  text-align: center;
+  padding-right: 2em;
+  margin-top: -1em;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blurb,
+.skills {
+  width: 100%;
+  margin: 2em;
+  background-color: rgba(240, 248, 255, 0.064);
+  border-radius: 25px;
+}
+
+@media (min-width: 768px) {
+  /* Adjust the breakpoint (768px) based on your design needs */
+  .about {
+    flex-direction: row; /* Switch to row layout for desktop */
+  }
+
+  .blurb,
+  .skills {
+    width: 40vw; /* Adjust width for desktop */
+  }
+
+  .blurb {
+    margin-right: 2em; /* Add margin between blurb and skills in desktop view */
+  }
+}
