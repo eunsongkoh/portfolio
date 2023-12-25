@@ -6,6 +6,7 @@ import Timeline from "./components/timeline";
 import ScrollToTopButton from "./components/scrollBtn";
 import Type from "./components/type";
 import About from "./components/about";
+import Contact from "./components/contact";
 
 function App() {
   return (
@@ -36,11 +37,13 @@ function App() {
       <Element name="multimedia">
         <div className={classes.multimedia}>
           <h2>Multimedia</h2>
+          <Multimedia />
         </div>
       </Element>
       <Element name="contact">
         <div className={classes.contact}>
-          <h2>Contact</h2>
+          <h2>Contact Me</h2>
+          <Contact />
         </div>
       </Element>
     </main>

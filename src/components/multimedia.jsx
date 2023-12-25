@@ -4,37 +4,34 @@ import classes from "./main.module.css";
 const Multimedia = () => {
   return (
     <div className={classes.multimedia} id="multimedia">
-      <h2>Multimedia</h2>
-      <h5>
-        I have a huge passion for digital design! Currently, I'm a <br></br>
-        <i>
-          <big>Video Editor @ SFU Computing Science Student Society</big>
-        </i>{" "}
-        <br></br>
-        <br></br>
-        <i>
-          <big>
-            Director of Communications and Multimedia @ SFU Developers & Systems
-            Club
-          </big>
-        </i>
-      </h5>
-      <h4>Some of my work</h4>
+      <h4>
+        Here's some of my work with the SFU Developers and Systems Club and the
+        SFU Computing Science Student Society (CSSS)!
+      </h4>
       <div className={classes.social}>
-        <div style={{ display: "flex", justifyContent: "left" }}>
+        <div
+          style={{
+            display: "flex",
+            margin: "1em",
+            width: "100%",
+            justifyContent: "center",
+          }}
+        >
           <InstagramEmbed
-            url="https://www.instagram.com/reel/CyE7V65tl4h/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+            url="https://www.instagram.com/reel/C0j23_KPkVt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
             width={328}
           />
         </div>
         <div
           style={{
             display: "flex",
-            justifyContent: "right",
+            margin: "1em",
+            width: "100%",
+            justifyContent: "center",
           }}
         >
           <InstagramEmbed
-            url="https://www.instagram.com/p/CyAX1CPu3K5/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+            url="https://www.instagram.com/p/C0Lc_j7ummk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
             width={328}
           />
         </div>

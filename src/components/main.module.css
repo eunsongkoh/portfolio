@@ -102,19 +102,61 @@ big {
   flex-wrap: wrap;
 }
 
+.multimedia {
+  background-color: rgba(240, 248, 255, 0.064);
+  border-radius: 25px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.multimedia:hover {
+  background-color: rgba(240, 248, 255, 0.129);
+}
+
+.multimedia h4 {
+  font-size: 1.2em;
+  line-height: 1;
+  padding: 1em;
+  justify-content: center;
+  text-align: center;
+}
+
+.social {
+  padding-top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactInfo {
+  font-size: 2em;
+  color: #eafc88;
+  padding: 1em;
+  justify-content: center;
+  background-color: rgba(240, 248, 255, 0.064);
+  border-radius: 25px;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
+}
+
+.contactInfo:hover {
+  background-color: rgba(240, 248, 255, 0.129);
+}
+
 @media (min-width: 768px) {
-  /* Adjust the breakpoint (768px) based on your design needs */
   .about {
-    flex-direction: row; /* Switch to row layout for desktop */
+    flex-direction: row;
   }
 
   .blurb,
   .skills {
-    width: 40vw; /* Adjust width for desktop */
+    width: 40vw;
   }
 
-  .blurb {
-    margin-right: 2em; /* Add margin between blurb and skills in desktop view */
+  .social {
+    justify-content: center;
+    gap: 1em;
+    flex-direction: row;
   }
 }
 
@@ -126,6 +168,12 @@ big {
   .blurb,
   .skills {
     width: 85vw;
+  }
+
+  .social {
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
   }
 
   .blurb h4,

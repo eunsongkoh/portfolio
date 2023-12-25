@@ -1,12 +1,10 @@
 /* Your existing styles */
 
 body {
-  overflow-x: hidden;
 }
 
 .intro {
   height: 100vh;
-  width: 100vw;
 }
 
 .theTitle {
@@ -14,28 +12,29 @@ body {
 }
 
 .title {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .about,
 .projects,
-.multimedia,
-.contact {
+.multimedia {
   height: 90vh;
-  width: 100vw;
+  margin-bottom: 1em;
+}
+
+.contact {
   margin-bottom: 1em;
 }
 
 @media only screen and (max-width: 1522px) {
   /* Adjust styles for screens up to 1522 pixels wide */
   .theTitle {
-    margin-top: 5em;
+    margin-top: 3em;
   }
 
   .about,
   .projects,
-  .multimedia,
-  .contact {
+  .multimedia {
     height: auto;
   }
 }

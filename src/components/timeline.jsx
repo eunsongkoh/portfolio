@@ -120,7 +120,7 @@ function Timeline() {
             items={items}
             theme={{
               primary: "#BDB4FF",
-              secondary: "#ffffff",
+              secondary: "#EAFC88",
               titleColor: "fffeec",
               titleColorActive: "#BDB4FF",
               cardTitleColor: "#8693AB",

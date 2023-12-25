@@ -6,11 +6,11 @@ const Type = () => {
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Student", "Developer", "Designer"],
+      strings: ["Student..", "Developer..", "Designer..", "Digital Creator.."],
       startDelay: 300,
-      typeSpeed: 300,
-      backSpeed: 200,
-      backDelay: 200,
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 100,
       loop: true,
     });
 
