@@ -1,4 +1,4 @@
-import { Element, scroller } from "react-scroll";
+import { Element } from "react-scroll";
 import classes from "./App.module.css";
 import Multimedia from "./components/multimedia";
 import Navbar from "./components/nav";

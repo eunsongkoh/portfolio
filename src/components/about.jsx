@@ -15,9 +15,10 @@ function About() {
         <h3>Hi, My name is Song!</h3>
         <br style={{ lineHeight: "1px" }} />
         <h4>
-          I'm a 2nd Year Computing Science student at Simon Fraser University.
-          I'm passionate about all things technology! I think it's awesome how
-          we can bring creative ideas and solutions to real-world problems with
+         I'm a 2nd
+          Year Computing Science student at Simon Fraser University. I'm
+          passionate about all things technology! I think it's awesome how we
+          can bring creative ideas and solutions to real-world problems with
           something as technical as a computer.
         </h4>
         <br></br>
