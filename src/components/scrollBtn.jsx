@@ -1,5 +1,5 @@
 import { scroller } from "react-scroll";
-import Button from "@material-ui/core/Button";
+import { Button } from "@mui/material";
 
 const ScrollToTopButton = () => {
   const scrollToTop = () => {
