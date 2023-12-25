@@ -27,6 +27,22 @@ function App() {
           <About />
         </div>
       </Element>
+      <Element name="projects">
+        <div className={classes.projects}>
+          <h2>Projects</h2>
+          <Timeline />
+        </div>
+      </Element>
+      <Element name="multimedia">
+        <div className={classes.multimedia}>
+          <h2>Multimedia</h2>
+        </div>
+      </Element>
+      <Element name="contact">
+        <div className={classes.contact}>
+          <h2>Contact</h2>
+        </div>
+      </Element>
     </main>
   );
 }

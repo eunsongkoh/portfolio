@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css");
+
 * {
   box-sizing: border-box;
 }
@@ -21,12 +23,9 @@ h3 {
 
 h5 {
   color: #fffeec;
-  padding-left: 2em;
-  font-size: 20px;
-  text-align: center;
-  justify-content: center;
-  margin: auto;
-  width: 60%;
+  margin: 1em;
+  text-align: right;
+  justify-content: right;
 }
 
 h4 {
@@ -77,6 +76,32 @@ big {
   border-radius: 25px;
 }
 
+.blurb:hover,
+.skills:hover {
+  background-color: rgba(240, 248, 255, 0.129);
+}
+
+[class^="devicon-"],
+[class*=" devicon-"] {
+  font-family: "devicon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 4em;
+  margin: 0.4em;
+  color: #eafc88;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media (min-width: 768px) {
   /* Adjust the breakpoint (768px) based on your design needs */
   .about {
@@ -90,5 +115,21 @@ big {
 
   .blurb {
     margin-right: 2em; /* Add margin between blurb and skills in desktop view */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .blurb,
+  .skills {
+    width: 85vw;
+  }
+
+  .blurb h4,
+  .skills h4 {
+    font-size: 1em;
   }
 }

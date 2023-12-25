@@ -1,3 +1,5 @@
+/* Your existing styles */
+
 body {
   overflow-x: hidden;
 }
@@ -9,15 +11,31 @@ body {
 
 .theTitle {
   text-align: center;
-  justify-content: center;
-  margin-top: 10em;
 }
 
 .title {
   margin-top: 1em;
 }
 
-.about {
-  height: 100vh;
+.about,
+.projects,
+.multimedia,
+.contact {
+  height: 90vh;
   width: 100vw;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 1522px) {
+  /* Adjust styles for screens up to 1522 pixels wide */
+  .theTitle {
+    margin-top: 5em;
+  }
+
+  .about,
+  .projects,
+  .multimedia,
+  .contact {
+    height: auto;
+  }
 }

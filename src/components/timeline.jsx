@@ -4,11 +4,18 @@ import classes from "./main.module.css";
 function Timeline() {
   const items = [
     {
-      title: "Personal Website",
+      title: "Personal Website, Current",
       cardTitle: "Personal Website",
       cardSubtitle:
         "What you're looking at right now! I love learning and challenging myself with new skills. This website will be a real-time update of where I am in my coding journey!",
       cardDetailedText: "React.js",
+    },
+    {
+      title: "words.io, 2023",
+      cardTitle: "words.io",
+      cardSubtitle:
+        "A full stack web application created to practice learning English! Created as a present for a family member! ",
+      cardDetailedText: "Next.js, mongoDB",
     },
     {
       title: "Every Second Devotion, 2023",
@@ -107,16 +114,15 @@ function Timeline() {
   ];
   return (
     <div className={classes.projects} id="projects">
-      <h2>My Projects</h2>
       <section className={classes.theCards}>
         <div style={{ width: "100%", height: "100%" }}>
           <Chrono
             items={items}
             theme={{
-              primary: "#8693AB",
-              secondary: "#8693AB",
-              titleColor: "white",
-              titleColorActive: "#F4D6CC",
+              primary: "#BDB4FF",
+              secondary: "#ffffff",
+              titleColor: "fffeec",
+              titleColorActive: "#BDB4FF",
               cardTitleColor: "#8693AB",
             }}
             mode="HORIZONTAL"
