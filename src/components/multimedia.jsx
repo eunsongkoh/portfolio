@@ -31,7 +31,7 @@ const Multimedia = () => {
           }}
         >
           <InstagramEmbed
-            url="https://www.instagram.com/p/C0Lc_j7ummk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+            url="https://www.instagram.com/p/C4WRtnduBvl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
             width={328}
           />
         </div>

@@ -18,6 +18,7 @@ const ScrollToTopButton = () => {
         right: "20px",
         backgroundColor: "#eafc88",
         zIndex: 1000,
+        color: "black", // Add this line to make the text color black
       }}
       onClick={scrollToTop}
     >

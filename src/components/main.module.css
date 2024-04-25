@@ -98,6 +98,7 @@ big {
 }
 
 .icons {
+  margin: 2em;
   display: flex;
   flex-wrap: wrap;
 }
@@ -128,7 +129,7 @@ big {
 }
 
 .contactInfo {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #eafc88;
   padding: 1em;
   justify-content: center;
@@ -167,7 +168,7 @@ big {
 
   .blurb,
   .skills {
-    width: 85vw;
+    width: 80vw;
   }
 
   .social {
@@ -179,5 +180,9 @@ big {
   .blurb h4,
   .skills h4 {
     font-size: 1em;
+  }
+
+  .icons {
+    margin: 1em;
   }
 }

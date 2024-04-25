@@ -20,10 +20,11 @@ function About() {
           we can bring creative ideas and solutions to real-world problems with
           something as technical as a computer.
         </h4>
-        <br></br>
+
         <h4>
           Outside of programming, I love <b>digital design</b>. Currently, I'm
           the: <br></br>
+          <br></br>
           <b>- Director of Communication and Multimedia</b> @ SFU Developers and
           Systems Club <br></br>
           <b>- Video Editor</b> @ SFU Computing Science Student Society (CSSS)
@@ -41,11 +42,13 @@ function About() {
         </Button>
       </div>
       <div className={classes.skills}>
-        <h3>Languages, Frameworks, Technology </h3>
+        <h3>Languages, Frameworks, & Technologies I've Used: </h3>
         <div className={classes.icons}>
           <i class="devicon-c-plain"></i>
           <i class="devicon-cplusplus-plain"></i>
+          <i class="devicon-java-plain-wordmark"></i>
           <i class="devicon-python-plain"></i>
+          <i class="devicon-pandas-plain-wordmark"></i>
           <i class="devicon-html5-plain-wordmark"></i>
           <i class="devicon-css3-plain-wordmark"></i>
           <i class="devicon-javascript-plain"></i>
@@ -56,12 +59,14 @@ function About() {
           <i class="devicon-nodejs-plain-wordmark"></i>
           <i class="devicon-tailwindcss-original-wordmark"></i>
           <i class="devicon-bootstrap-plain"></i>
+          <i class="devicon-amazonwebservices-plain-wordmark"></i>
           <i class="devicon-mongodb-plain-wordmark"></i>
           <i class="devicon-github-original-wordmark"></i>
         </div>
         <h5>
-          C/C++, Python, HTML5, CSS3, Javascript, Typescript, AngularJS,
-          React.js, Next.js, Node.js, Tailwind CSS, BootStrap, mongoDB, Github
+          C, C++, Java, Python, Pandas, HTML5, CSS3, Javascript, Typescript,
+          AngularJS, React.js, Next.js, Node.js, Tailwind CSS, BootStrap, AWS,
+          mongoDB, Github
         </h5>
       </div>
     </div>

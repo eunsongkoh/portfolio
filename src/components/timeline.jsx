@@ -11,14 +11,34 @@ function Timeline() {
       cardDetailedText: "React.js",
     },
     {
-      title: "words.io, 2023",
-      cardTitle: "words.io",
+      title: "Raccoon Spotter",
+      cardTitle: "Raccoon Spotter",
+      cardSubtitle:
+        "A web application that allows university students to post raccoon sightings on campus and to view the locations of other sightings on campus!",
+      cardDetailedText: "Next.js, AWS DynamoDB & API Gateway",
+      media: {
+        source: {
+          url: "/img/raccoon-logo.svg",
+        },
+        type: "IMAGE",
+      },
+    },
+    {
+      title: "words.io",
+      cardTitle: "words.io 🔗",
+      url: "https://wordsio.netlify.app/",
       cardSubtitle:
         "A full stack web application created to practice learning English! Created as a present for a family member! ",
       cardDetailedText: "Next.js, mongoDB",
+      media: {
+        source: {
+          url: "/img/wordsio.png",
+        },
+        type: "IMAGE",
+      },
     },
     {
-      title: "Every Second Devotion, 2023",
+      title: "Every Second Devotion",
       cardTitle: "Every Second Devotion",
       cardSubtitle:
         "A devotional web app that generates descriptions for the passage of the day or on random. Created as a birthday gift! ",
@@ -32,10 +52,10 @@ function Timeline() {
     },
     {
       title: "Gesture Genius, Hack the North 2023",
-      cardTitle: "Gesture Genius, Hack the North 2023",
+      cardTitle: "Gesture Genius, Hack the North 2023 🔗",
       url: "https://devpost.com/software/gesture-genius-asl-ai-recognition",
       cardSubtitle:
-        "An accessible ASL Translator utilizing Google Cloud's API and Teachable Machine AI Model",
+        "An accessible ASL Translator utilizing Google Cloud's API and Teachable Machine AI Model. Created at Canada's largest hackathon, Hack the North @ the University of Waterloo",
       cardDetailedText: "HTML/CSS, JS, Ajax, Node.js, Google Cloud API",
       media: {
         source: {
@@ -45,8 +65,8 @@ function Timeline() {
       },
     },
     {
-      title: "SFU Developers & Systems Club Official Website 2023",
-      cardTitle: "SFU DNS Club Website",
+      title: "SFU Developers & Systems Club Website",
+      cardTitle: "SFU DNS Club Website 🔗",
       url: "https://dnsclub.github.io/dnsWeb/",
       cardSubtitle:
         "The official website of SFU DNS Club website created with React.js",
@@ -59,7 +79,7 @@ function Timeline() {
       },
     },
     {
-      title: "AutoFill PDF 2023",
+      title: "AutoFill PDF",
       cardTitle: "AutoFill PDF",
       cardSubtitle:
         "A Python program I independently developed during my time at NCI as a seasonal student to help automate their onboarding contracts for the HR Department",
@@ -72,8 +92,8 @@ function Timeline() {
       },
     },
     {
-      title: "Weather App 2022",
-      cardTitle: "Weather App",
+      title: "Weather App",
+      cardTitle: "Weather App 🔗",
       url: "https://github.com/eunsongkoh/weather-app.py",
       cardSubtitle:
         "An application that provides real-time updates on weather conditions on user-inputted cities",
@@ -86,7 +106,7 @@ function Timeline() {
       },
     },
     {
-      title: "Password Manager 2022",
+      title: "Password Manager",
       cardTitle: "Password Manager",
       url: "https://github.com/eunsongkoh/passwordVault.py",
       cardSubtitle: "A Python application that stores a database of passwords",
@@ -120,10 +140,13 @@ function Timeline() {
             items={items}
             theme={{
               primary: "#BDB4FF",
-              secondary: "#EAFC88",
-              titleColor: "fffeec",
-              titleColorActive: "#BDB4FF",
-              cardTitleColor: "#8693AB",
+              secondary: "#F0F8FF10",
+              titleColor: "#BDB4FF",
+              cardSubtitleColor: "#f5f5f5",
+              cardDetailsColor: "#f5f5f5",
+              titleColorActive: "#f5f5f5",
+              cardTitleColor: "#f5f5f5",
+              cardBgColor: "#F0F8FF10",
             }}
             mode="HORIZONTAL"
           />
