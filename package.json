@@ -49,5 +49,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "@mui/*": {
+      "peerDependencies": {
+        "@types/react": "^17.0.0 || ^18.0.0",
+        "react": "^17.0.0 || ^18.0.0"
+      }
+    }
   }
 }
