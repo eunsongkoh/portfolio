@@ -1,5 +1,5 @@
 import { Chrono } from "react-chrono";
-import classes from "./main.module.css";
+import classes from "../../styles/main.module.css";
 
 function Timeline() {
   const items = [

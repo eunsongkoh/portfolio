@@ -1,5 +1,5 @@
 import { InstagramEmbed } from "react-social-media-embed";
-import classes from "./main.module.css";
+import classes from "../../styles/main.module.css";
 
 const Multimedia = () => {
   return (

@@ -1,12 +1,13 @@
 import { Element } from "react-scroll";
 import classes from "./App.module.css";
-import Multimedia from "./components/multimedia";
-import Navbar from "./components/nav";
-import Timeline from "./components/timeline";
-import ScrollToTopButton from "./components/scrollBtn";
-import Type from "./components/type";
-import About from "./components/about";
-import Contact from "./components/contact";
+import Multimedia from "./components/Multimedia/multimedia";
+import Navbar from "./components/Nav/nav";
+import Timeline from "./components/Projects/timeline";
+import ScrollToTopButton from "./components/Home/scrollBtn";
+import Type from "./components/Home/type";
+import About from "./components/About/about";
+import Contact from "./components/Contact/contact";
+import Experience from "./components/Experience/Experience";
 
 function App() {
   return (
@@ -26,6 +27,12 @@ function App() {
         <div className={classes.about}>
           <h2>About Me</h2>
           <About />
+        </div>
+      </Element>
+      <Element name="experience">
+        <div className={classes.experience}>
+          <h2>Experience</h2>
+          <Experience />
         </div>
       </Element>
       <Element name="projects">

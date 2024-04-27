@@ -1,4 +1,4 @@
-import classes from "./main.module.css";
+import classes from "../../styles/main.module.css";
 import { CiLinkedin } from "react-icons/ci";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";

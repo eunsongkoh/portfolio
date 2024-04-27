@@ -17,9 +17,14 @@ body {
 
 .about,
 .projects,
-.multimedia {
+.multimedia,
+.experience {
   height: 90vh;
   margin-bottom: 1em;
+}
+
+.projects {
+  margin-top: 15em;
 }
 
 .contact {
@@ -34,7 +39,8 @@ body {
 
   .about,
   .projects,
-  .multimedia {
+  .multimedia,
+  .experience {
     height: auto;
   }
 }
