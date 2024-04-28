@@ -4,7 +4,7 @@ import classes from "../../styles/main.module.css";
 function Skills() {
   return (
     <div className={classes.skills}>
-      <h3>Languages, Frameworks, & Technologies I've Used: </h3>
+      {/* <h3>Languages, Frameworks, & Technologies I've Used: </h3> */}
       <div className={classes.icons}>
         <i class="devicon-c-plain"></i>
         <i class="devicon-cplusplus-plain"></i>
@@ -25,7 +25,7 @@ function Skills() {
         <i class="devicon-mongodb-plain-wordmark"></i>
         <i class="devicon-github-original-wordmark"></i>
       </div>
-      <h5>
+      <h5 style={{ "font-weight": "normal" }}>
         C, C++, Java, Python, Pandas, HTML5, CSS3, Javascript, Typescript,
         AngularJS, React.js, Next.js, Node.js, Tailwind CSS, BootStrap, AWS,
         mongoDB, Github

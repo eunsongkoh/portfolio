@@ -69,7 +69,6 @@ big {
 }
 
 .blurb {
-  width: 100%;
   margin: 1em;
   background-color: rgba(240, 248, 255, 0.064);
   border-radius: 25px;
@@ -77,7 +76,8 @@ big {
 }
 
 .blurb:hover,
-.skills:hover {
+[class^="devicon-"]:hover,
+[class*=" devicon-"]:hover {
   background-color: rgba(240, 248, 255, 0.129);
 }
 
@@ -88,24 +88,35 @@ big {
 }
 
 .skills {
-  background-color: rgba(240, 248, 255, 0.064);
+  /* background-color: rgba(240, 248, 255, 0.064); */
   border-radius: 25px;
-  padding: 2em;
-  margin: 1em;
-  width: 50vw;
-  height: 50vh;
+  padding-bottom: 0em;
+  text-align: center;
+  justify-content: center;
+  /* border-color: green;
+  border-style: solid; */
 }
 
+.caption {
+  color: white;
+}
+
+/* .videoDiv {
+  margin: 1em;
+  border-radius: 25px;
+  padding: 1em;
+  text-align: right;
+  height: 50vh;
+} */
+
 .video {
+  margin: 1em;
   width: 500px;
   height: 300px;
-  margin: 1em;
 }
 
 .jobCard {
   display: flex;
-  /* flex-direction: row; */
-  /* justify-content: space-between; */
   margin: 1em;
 }
 
@@ -125,7 +136,6 @@ big {
 .card:hover {
   background-color: rgba(240, 248, 255, 0.064);
 }
-
 [class^="devicon-"],
 [class*=" devicon-"] {
   font-family: "devicon" !important;
@@ -137,26 +147,25 @@ big {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 2em;
-  margin: 0.4em;
+  font-size: 5em;
+  margin: 0.5em;
   color: #eafc88;
+  box-shadow: 0 0 9px rgba(255, 255, 255, 0.2);
 }
 
 .icons {
-  margin: 2em;
+  padding: 1em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
-
-/* .projects {
-  padding-top: 5em;
-} */
 
 .multimedia {
   background-color: rgba(240, 248, 255, 0.064);
   border-radius: 25px;
   margin-left: 1em;
   margin-right: 1em;
+  justify-content: space-evenly;
 }
 
 .multimedia:hover {
@@ -167,8 +176,7 @@ big {
   font-size: 1.2em;
   line-height: 1;
   padding: 1em;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
 }
 
 .social {
@@ -193,14 +201,27 @@ big {
   background-color: rgba(240, 248, 255, 0.129);
 }
 
+@media screen and (max-width: 1320px) {
+  .video {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1058px) {
+  .multimedia {
+    flex-direction: row;
+  }
+}
+
 @media (min-width: 768px) {
   .about {
     flex-direction: row;
   }
-
+  /* 
   .blurb {
     width: 40vw;
-  }
+  } */
 
   .social {
     justify-content: center;
@@ -212,22 +233,28 @@ big {
 @media only screen and (min-width: 0px) and (max-width: 1098px) {
   .exp {
     flex-direction: column;
-    justify-content: space-evenly;
   }
 
   .skills {
-    width: 90vw;
-    margin: 2em;
+    width: 99vw;
+    padding: 0.5em;
     height: 70vh;
+    margin: 0em;
+    border-color: black;
   }
 
   .card {
     width: 90vw;
-    margin: 1em;
+    margin-bottom: 1em;
   }
 }
 
 @media only screen and (max-width: 768px) {
+  .video {
+    width: 250px;
+    height: 200px;
+  }
+
   .about {
     flex-direction: column;
   }
@@ -249,16 +276,8 @@ big {
     font-size: 1em;
   }
 
-  .jobCard {
-    width: 80vw;
-    margin-right: 1em;
-  }
-
-  .exp {
-    width: 90vw;
-  }
-
-  .icons {
-    margin: 1em;
+  [class^="devicon-"],
+  [class*=" devicon-"] {
+    font-size: 3em;
   }
 }

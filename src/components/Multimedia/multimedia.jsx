@@ -1,20 +1,16 @@
 import { InstagramEmbed } from "react-social-media-embed";
 import classes from "../../styles/main.module.css";
+import Video from "../About/Video";
 
 const Multimedia = () => {
   return (
     <div className={classes.multimedia} id="multimedia">
-      <h4>
-        Here's some of my work with the SFU Developers and Systems Club and the
-        SFU Computing Science Student Society (CSSS)!
-      </h4>
       <div className={classes.social}>
         <div
           style={{
             display: "flex",
             margin: "1em",
             width: "100%",
-            justifyContent: "center",
           }}
         >
           <InstagramEmbed
@@ -27,7 +23,6 @@ const Multimedia = () => {
             display: "flex",
             margin: "1em",
             width: "100%",
-            justifyContent: "center",
           }}
         >
           <InstagramEmbed
@@ -35,6 +30,7 @@ const Multimedia = () => {
             width={328}
           />
         </div>
+        <Video />
       </div>
     </div>
   );

@@ -13,14 +13,8 @@ export const Positions = [
     "Staffing Assistant",
     "Northern Cherries Inc.",
     "Apr - Aug 2023",
-
     `   
-    • Independently developed a Python App to streamline contract workflows for 200+ employees, reducing on-boarding times by 90% and
-    achieving 100% adoption rate within the HR department while leading a summer student team, resulting in 50% faster and more
-    accurate completion of department projects \n\n
-    
-    • Upheld Air Cargo Security protocols for all visitors while efficiently processing orders, providing IT support, and conducted data entry
-    tasks using Microsoft Office within tight time-frames
+    • Independently developed a Python App to streamline contract workflows for 200+ employees, reducing on-boarding times by 90% and achieving 100% adoption rate within the HR department while leading a summer student team, resulting in 50% faster and more accurate completion of department projects\n
     `,
     "Python"
   ),

@@ -27,6 +27,15 @@ body {
   margin-top: 25em;
 }
 
+.experience,
+.contact {
+  margin-top: 10em;
+}
+
+.multimedia {
+  margin-top: 15em;
+}
+
 .contact {
   margin-bottom: 1em;
 }
