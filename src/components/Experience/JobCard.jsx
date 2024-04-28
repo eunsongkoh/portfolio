@@ -16,13 +16,12 @@ function JobCard() {
                 <Card.Body>
                   <Card.Title>
                     <h3>{workExperience.title}</h3>
+                    <h4>{workExperience.company}</h4>
                   </Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted">
-                    <h4>
-                      <i>{workExperience.company}</i>
-                    </h4>
-                  </Card.Subtitle>
-                  <Card.Text>{workExperience.description}</Card.Text>
+                  <h5>{workExperience.date}</h5>
+                  <Card.Link>{workExperience.description}</Card.Link>
+                  <br />
+                  <br />
                   <Card.Link>{workExperience.techstack}</Card.Link>
                 </Card.Body>
               </Card>

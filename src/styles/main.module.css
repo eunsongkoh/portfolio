@@ -25,7 +25,7 @@ h5 {
   color: #fffeec;
   margin: 1em;
   text-align: right;
-  justify-content: right;
+  justify-content: left;
 }
 
 h4 {
@@ -81,12 +81,19 @@ big {
   background-color: rgba(240, 248, 255, 0.129);
 }
 
+.exp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .skills {
   background-color: rgba(240, 248, 255, 0.064);
   border-radius: 25px;
   padding: 2em;
   margin: 1em;
-  width: 60vw;
+  width: 50vw;
+  height: 50vh;
 }
 
 .video {
@@ -106,14 +113,17 @@ big {
   background-color: rgba(240, 248, 255, 0.129);
   border-radius: 25px;
   padding: 2em;
+  width: 50vw;
   margin-bottom: 1em;
-  width: 40vw;
 }
 
-.exp {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.card h5 {
+  text-align: left;
+  margin-left: 0em;
+}
+
+.card:hover {
+  background-color: rgba(240, 248, 255, 0.064);
 }
 
 [class^="devicon-"],
@@ -127,7 +137,7 @@ big {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 5em;
+  font-size: 2em;
   margin: 0.4em;
   color: #eafc88;
 }
@@ -188,8 +198,7 @@ big {
     flex-direction: row;
   }
 
-  .blurb,
-  .skills {
+  .blurb {
     width: 40vw;
   }
 
@@ -200,11 +209,25 @@ big {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 0px) and (max-width: 1098px) {
   .exp {
     flex-direction: column;
+    justify-content: space-evenly;
   }
 
+  .skills {
+    width: 90vw;
+    margin: 2em;
+    height: 70vh;
+  }
+
+  .card {
+    width: 90vw;
+    margin: 1em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .about {
     flex-direction: column;
   }
@@ -226,9 +249,9 @@ big {
     font-size: 1em;
   }
 
-  .skills {
-    width: 90vw;
-    margin: 2em;
+  .jobCard {
+    width: 80vw;
+    margin-right: 1em;
   }
 
   .exp {
