@@ -52,13 +52,14 @@ function About() {
         style={{
           display: "flex",
           justifyContent: "center",
+          alignItems: "center",
         }}
       >
-        <div style={{ width: "50%", margin: "2em" }}>
+        <div style={{ width: "80%", margin: "2em" }}>
           <img
             src="/img/coding.jpeg"
             alt="Coding on a laptop"
-            style={{ width: "100%", borderRadius: "90px" }}
+            style={{ width: "100%", borderRadius: "20px" }}
           />
         </div>
       </div>

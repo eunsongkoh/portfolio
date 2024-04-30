@@ -159,13 +159,13 @@ big {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .multimedia {
   background-color: rgba(240, 248, 255, 0.064);
   border-radius: 25px;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin: 1em;
   justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .multimedia:hover {
@@ -176,13 +176,6 @@ big {
   font-size: 1.2em;
   line-height: 1;
   padding: 1em;
-  justify-content: space-between;
-}
-
-.social {
-  padding-top: 1em;
-  display: flex;
-  justify-content: space-between;
 }
 
 .contactInfo {
@@ -208,24 +201,8 @@ big {
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 1058px) {
-  .multimedia {
-    flex-direction: row;
-  }
-}
-
 @media (min-width: 768px) {
   .about {
-    flex-direction: row;
-  }
-  /* 
-  .blurb {
-    width: 40vw;
-  } */
-
-  .social {
-    justify-content: center;
-    gap: 1em;
     flex-direction: row;
   }
 }
@@ -263,12 +240,6 @@ big {
     width: 90vw;
     padding: 1em;
     margin-left: 1.5em;
-  }
-
-  .social {
-    flex-direction: column;
-    align-items: center;
-    padding: 1em;
   }
 
   .blurb h4,

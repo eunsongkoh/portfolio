@@ -4,34 +4,30 @@ import Video from "../About/Video";
 
 const Multimedia = () => {
   return (
-    <div className={classes.multimedia} id="multimedia">
-      <div className={classes.social}>
-        <div
-          style={{
-            display: "flex",
-            margin: "1em",
-            width: "100%",
-          }}
-        >
-          <InstagramEmbed
-            url="https://www.instagram.com/reel/C0j23_KPkVt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-            width={328}
-          />
-        </div>
-        <div
-          style={{
-            display: "flex",
-            margin: "1em",
-            width: "100%",
-          }}
-        >
-          <InstagramEmbed
-            url="https://www.instagram.com/p/C4WRtnduBvl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-            width={328}
-          />
-        </div>
-        <Video />
+    <div className={classes.multimedia}>
+      <div
+        style={{
+          display: "flex",
+          margin: "1em",
+        }}
+      >
+        <InstagramEmbed
+          url="https://www.instagram.com/reel/C0j23_KPkVt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+          width={328}
+        />
       </div>
+      <div
+        style={{
+          display: "flex",
+          margin: "1em",
+        }}
+      >
+        <InstagramEmbed
+          url="https://www.instagram.com/p/C4WRtnduBvl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+          width={328}
+        />
+      </div>
+      <Video />
     </div>
   );
 };
