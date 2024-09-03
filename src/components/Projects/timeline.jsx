@@ -1,5 +1,5 @@
 import { Chrono } from "react-chrono";
-import classes from "./main.module.css";
+import classes from "../../styles/main.module.css";
 
 function Timeline() {
   const items = [
@@ -14,7 +14,7 @@ function Timeline() {
       title: "Raccoon Spotter",
       cardTitle: "Raccoon Spotter",
       cardSubtitle:
-        "A web application that allows university students to post raccoon sightings on campus and to view the locations of other sightings on campus!",
+        "   A web application that allows university students to post raccoon sightings on campus and to view the locations of other sightings on campus!",
       cardDetailedText: "Next.js, AWS DynamoDB & API Gateway",
       media: {
         source: {
@@ -142,11 +142,11 @@ function Timeline() {
               primary: "#BDB4FF",
               secondary: "#F0F8FF10",
               titleColor: "#BDB4FF",
-              cardSubtitleColor: "#f5f5f5",
-              cardDetailsColor: "#f5f5f5",
+              cardSubtitleColor: "#1a1918",
+              cardDetailsColor: "#222120",
               titleColorActive: "#f5f5f5",
-              cardTitleColor: "#f5f5f5",
-              cardBgColor: "#F0F8FF10",
+              cardTitleColor: "#363434",
+              cardBgColor: "#f5f5f5",
             }}
             mode="HORIZONTAL"
           />

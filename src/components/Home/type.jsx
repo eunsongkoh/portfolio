@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import classes from "./main.module.css";
+import classes from "../../styles/main.module.css";
 
 const Type = () => {
   const el = useRef(null);
