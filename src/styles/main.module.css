@@ -13,7 +13,6 @@ h2 {
   text-align: left;
   padding-left: 1em;
   color: #edb5f7;
-  /* color: #bdb4ff; */
   font-size: 2em;
 }
 
@@ -101,14 +100,6 @@ big {
   color: white;
 }
 
-/* .videoDiv {
-  margin: 1em;
-  border-radius: 25px;
-  padding: 1em;
-  text-align: right;
-  height: 50vh;
-} */
-
 .video {
   margin: 1em;
   width: 500px;
@@ -182,12 +173,14 @@ big {
   font-size: 1.5em;
   color: #eafc88;
   padding: 1em;
-  justify-content: center;
   background-color: rgba(240, 248, 255, 0.064);
   border-radius: 25px;
   margin-left: 1em;
   margin-right: 1em;
-  text-align: center;
+  display: flex; /* Makes the container a flexbox container */
+  flex-direction: column; /* Arranges children in a vertical column */
+  justify-content: center; /* Centers children horizontally */
+  align-items: center;
 }
 
 .contactInfo:hover {

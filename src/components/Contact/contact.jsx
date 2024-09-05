@@ -7,24 +7,35 @@ function Contact() {
   return (
     <div>
       <div className={classes.contactInfo}>
-        <a
-          href="https://www.linkedin.com/in/songkoh/"
-          className={classes.links}
-        >
-          <CiLinkedin style={{ fill: "#eafc88" }} /> chat with me on linkedin
-        </a>
-        <br></br>
-        <br></br>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/songkoh/"
+            className="flex items-center space-x-2"
+          >
+            <CiLinkedin style={{ fill: "#eafc88" }} />
+            <h3 className="text-center">chat with me on linkedin</h3>
+          </a>
+        </div>
 
-        <a href="mailto: eka74@sfu.ca" className={classes.links}>
-          <AiOutlineMail style={{ fill: "#eafc88" }} /> send me an email
-        </a>
-        <br></br>
-        <br></br>
+        <div>
+          <a
+            href="mailto: eka74@sfu.ca"
+            className="flex items-center space-x-2"
+          >
+            <AiOutlineMail style={{ fill: "#eafc88" }} />{" "}
+            <h3 className="text-center">send me an email</h3>
+          </a>
+        </div>
 
-        <a href="https://github.com/eunsongkoh" className={classes.links}>
-          <AiFillGithub style={{ fill: "#eafc88" }} /> my github
-        </a>
+        <div>
+          <a
+            href="https://github.com/eunsongkoh"
+            className="flex items-center space-x-2"
+          >
+            <AiFillGithub style={{ fill: "#eafc88" }} />{" "}
+            <h3 className="text-center">my github</h3>
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -3,8 +3,8 @@ import classes from "./nav.module.css";
 
 const Navbar = () => {
   return (
-    <header className={classes.header}>
-      <nav>
+    <header>
+      <nav className="">
         <ul>
           <li>
             <Link to="about" spy={true} smooth={true} duration={1000}>
