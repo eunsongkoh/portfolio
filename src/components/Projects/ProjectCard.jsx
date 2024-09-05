@@ -11,15 +11,17 @@ function ProjectCard({ project }) {
         </b>
       </CardHeader>
       <CardBody className="m-2">
-        <Image
-          src={project.photo}
-          width={400}
-          className="self-center object-cover rounded-xl mb-2"
-        />
         <p>{project.description}</p>
         <small className="pt-2">
           <p>{project.techstack}</p>
         </small>
+        <div className="mt-5 flex justify-center">
+          <Image
+            src={project.photo}
+            width={100}
+            className="object-cover rounded-xl mb-2"
+          />
+        </div>
       </CardBody>
     </Card>
   );
