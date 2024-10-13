@@ -13,7 +13,7 @@ function Contact() {
             className="flex items-center space-x-2"
           >
             <CiLinkedin style={{ fill: "#eafc88" }} />
-            <h3 className="text-center">chat with me on linkedin</h3>
+            <h3 className="text-center">connect on linkedin</h3>
           </a>
         </div>
 

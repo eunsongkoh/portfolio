@@ -72,6 +72,9 @@ big {
   background-color: rgba(240, 248, 255, 0.064);
   border-radius: 25px;
   padding: 2em;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 1;
 }
 
 .blurb:hover,
@@ -109,6 +112,9 @@ big {
 .jobCard {
   display: flex;
   margin: 1em;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 1;
 }
 
 .card {
@@ -157,6 +163,9 @@ big {
   justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 1;
 }
 
 .multimedia:hover {
@@ -177,10 +186,13 @@ big {
   border-radius: 25px;
   margin-left: 1em;
   margin-right: 1em;
-  display: flex; /* Makes the container a flexbox container */
-  flex-direction: column; /* Arranges children in a vertical column */
-  justify-content: center; /* Centers children horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 1;
 }
 
 .contactInfo:hover {
@@ -232,7 +244,7 @@ big {
   .blurb {
     width: 90vw;
     padding: 1em;
-    margin-left: 1.5em;
+    margin-left: 1em;
   }
 
   .blurb h4,

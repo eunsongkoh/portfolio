@@ -1,7 +1,6 @@
 import classes from "../../styles/main.module.css";
 import { Button } from "@mui/material";
 import { scroller } from "react-scroll";
-import Video from "./Video";
 
 function About() {
   const scrollToM = () => {
@@ -16,23 +15,43 @@ function About() {
         <h3>Hi, My name is Song! 🙋🏻‍♀️</h3>
 
         <h4 style={{ lineHeight: "1.5", fontWeight: "normal" }}>
-          I'm a 2nd Year Computing Science student at Simon Fraser University.
-          I'm passionate about all things technology!
+          I'm a{" "}
+          <b>
+            <span className="underline decoration-4 decoration-pink-400">
+              3rd Year Computing Science student at Simon Fraser University
+            </span>
+          </b>
+          . I'm passionate about all things technology!
           <br></br>I think it's awesome how we can bring creative ideas and
           solutions to real-world problems with something as technical as a
           computer.
         </h4>
 
         <h4 style={{ lineHeight: "1.5", fontWeight: "normal" }}>
-          Outside of programming, I love <b>digital design</b>. Currently, I'm
-          the:
+          Outside of programming, I love{" "}
+          <b>
+            <span className="underline decoration-4 decoration-pink-400">
+              digital design
+            </span>
+          </b>
+          . Currently, I'm the:
           <br style={{ lineHeight: "2" }}></br>
           <br></br>
-          <b>- Director of Communication and Multimedia</b> <br></br>
+          <b>
+            <span className="underline decoration-4 decoration-lime-200">
+              Director of Communication and Multimedia
+            </span>
+          </b>{" "}
+          <br></br>
           <i>@ SFU Developers and Systems Club </i>
           <br></br>
           <br></br>
-          <b>- Video Editor</b> <br></br>
+          <b>
+            <span className="underline decoration-4 decoration-lime-200">
+              Video Editor
+            </span>
+          </b>{" "}
+          <br></br>
           <i>@ SFU Computing Science Student Society (CSSS)</i>
         </h4>
         <Button
@@ -48,18 +67,12 @@ function About() {
         </Button>
         <br></br>
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+      <div className="flex justify-center items-center">
         <div style={{ width: "80%", margin: "2em" }}>
           <img
+            className="rounded-2xl bg-white/15 backdrop-blur-sm z-10"
             src="/img/coding.jpeg"
             alt="Coding on a laptop"
-            style={{ width: "100%", borderRadius: "20px" }}
           />
         </div>
       </div>

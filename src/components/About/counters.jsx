@@ -3,10 +3,8 @@ import { PureCounter } from "@srexi/purecounterjs";
 
 function Counter() {
   useEffect(() => {
-    // Select the span element where you want to apply the counter
     const counterElement = document.querySelector(".purecounter");
 
-    // Initialize PureCounter with the specified options
     const pure = new PureCounter(
       {
         end: 7,

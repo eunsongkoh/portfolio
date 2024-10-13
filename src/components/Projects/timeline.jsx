@@ -1,20 +1,14 @@
-import { Chrono } from "react-chrono";
-import classes from "../../styles/main.module.css";
 import ProjectCard from "./ProjectCard";
 
 function Timeline() {
   const items = [
     {
-      title: "Personal Website",
+      title: "autoM8, Hack the North 2024 🔗",
+      url: "https://devpost.com/software/autom8",
       description:
-        "What you're looking at right now! I love learning and challenging myself with new skills. This website will be a real-time update of where I am in my coding journey!",
-      techstack: "React.js",
-    },
-    {
-      title: "taxMe",
-      description:
-        "Developing a real-time grocery tax tracking app while grocery shopping! Utilizing Microsoft Azure's Computer Vision for price tag recognition for those of hard of seeing",
-      techstack: "Microsoft Azure, Java, SpringBoot, React.js, TailwindCSS",
+        "An app that allows you to apply edits on a mass amount of files and have them uploaded to the cloud at once with MASV API! It supports functions such as edge detection or video stabilization, as well as a summarizer tool for large CSV's or spreadsheets with Cohere's AI API.",
+      techstack: "Next.js, Python, Defang, MASV, Cohere AI API, Typescript",
+      photo: "/img/autom8.jpg",
     },
     {
       title: "Raccoon Spotter",
@@ -31,13 +25,13 @@ function Timeline() {
       techstack: "Next.js, mongoDB",
       photo: "/img/wordsio.png",
     },
-    {
-      title: "Every Second Devotion",
-      description:
-        "A devotional web app that generates descriptions for the passage of the day or on random. Created as a birthday gift! ",
-      techstack: "Next.js, Express.js, Node.js",
-      photo: "/img/logo.jpg",
-    },
+    // {
+    //   title: "Every Second Devotion",
+    //   description:
+    //     "A devotional web app that generates descriptions for the passage of the day or on random. Created as a birthday gift! ",
+    //   techstack: "Next.js, Express.js, Node.js",
+    //   photo: "/img/logo.jpg",
+    // },
     {
       title: "Gesture Genius, Hack the North 2023 🔗",
       url: "https://devpost.com/software/gesture-genius-asl-ai-recognition",
@@ -48,7 +42,7 @@ function Timeline() {
     },
     {
       title: "SFU Developers & Systems Club Website 🔗",
-      url: "https://dnsclub.github.io/dnsWeb/",
+      url: "https://sfudns.co",
       description:
         "The official website of SFU DNS Club website created with React.js",
       teckstack: "React.js, HTML/CSS",
@@ -66,14 +60,6 @@ function Timeline() {
         },
         type: "IMAGE",
       },
-    },
-    {
-      title: "Weather App 🔗",
-      url: "https://github.com/eunsongkoh/weather-app.py",
-      description:
-        "An application that provides real-time updates on weather conditions on user-inputted cities",
-      techstack: "Python, Json, Requests, Open-Weather API, Tkinter GUI",
-      photo: "/img/clouds.png",
     },
     {
       title: "Password Manager",

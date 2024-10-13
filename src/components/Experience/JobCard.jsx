@@ -12,15 +12,17 @@ function JobCard() {
           {Positions.map((workExperience) => (
             <Col xs={6} md={4} className={classes.card}>
               <Card>
-                <Card.Body>
+                <Card.Body className="text-neutral-100">
                   <Card.Title>
                     <h3>
-                      <b>{workExperience.title}</b>
+                      <span className="text-xl font-black underline decoration-2 decoration-lime-200">
+                        <b>{workExperience.title}</b>
+                      </span>
                     </h3>
-                    <h4>{workExperience.company}</h4>
+                    <h4 className="font-medium">{workExperience.company}</h4>
                   </Card.Title>
-                  <h5>{workExperience.date}</h5>
-                  <Card.Link>
+                  <h5 className="text-sm">{workExperience.date}</h5>
+                  <Card.Text>
                     {workExperience.description
                       .split("\n")
                       .map((line, index) => (
@@ -29,9 +31,13 @@ function JobCard() {
                           <br />
                         </React.Fragment>
                       ))}
-                  </Card.Link>
+                  </Card.Text>
                   <br />
-                  <Card.Link>{workExperience.techstack}</Card.Link>
+                  <Card.Text>
+                    <span className="text-sm underline decoration-3 decoration-sky-500">
+                      {workExperience.techstack}
+                    </span>
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Col>

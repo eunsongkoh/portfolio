@@ -4,13 +4,18 @@ import { Image } from "@nextui-org/image";
 
 function ProjectCard({ project }) {
   return (
-    <Card className="backdrop-blur-sm rounded-xl bg-white/30 flex flex-col">
-      <CardHeader className="m-2">
+    <Card className="backdrop-blur-sm rounded-xl bg-white/15 flex flex-col">
+      <CardHeader className="m-2 p-1">
         <b>
-          <a href={project.url}>{project.title}</a>
+          <a
+            className="underline decoration-2 decoration-pink-300"
+            href={project.url}
+          >
+            {project.title}
+          </a>
         </b>
       </CardHeader>
-      <CardBody className="m-2">
+      <CardBody className="m-2 p-1 text-neutral-100">
         <p>{project.description}</p>
         <small className="pt-2">
           <p>{project.techstack}</p>
