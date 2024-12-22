@@ -3,6 +3,7 @@ import { Card } from "react-bootstrap";
 import { Positions } from "./work";
 import classes from "../../styles/main.module.css";
 import { Container, Row, Col } from "react-bootstrap";
+import { useState } from "react";
 
 function JobCard() {
   return (
@@ -22,22 +23,10 @@ function JobCard() {
                     <h4 className="font-medium">{workExperience.company}</h4>
                   </Card.Title>
                   <h5 className="text-sm">{workExperience.date}</h5>
-                  <Card.Text>
-                    {workExperience.description
-                      .split("\n")
-                      .map((line, index) => (
-                        <React.Fragment key={index}>
-                          {line}
-                          <br />
-                        </React.Fragment>
-                      ))}
-                  </Card.Text>
-                  <br />
-                  <Card.Text>
-                    <span className="text-sm underline decoration-3 decoration-sky-500">
-                      {workExperience.techstack}
-                    </span>
-                  </Card.Text>
+                  <Accordian
+                    desc={workExperience.description}
+                    techstack={workExperience.techstack}
+                  />
                 </Card.Body>
               </Card>
             </Col>
@@ -48,4 +37,38 @@ function JobCard() {
   );
 }
 
+function Accordian({ desc, techstack }) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const pressed = () => {
+    setIsOpen(!isOpen);
+    console.log("clicked", isOpen);
+  };
+
+  return (
+    <>
+      <button onClick={pressed} className="hover:bg-slate-200">
+        {isOpen ? "> read less" : "> read more"}
+      </button>
+      {isOpen && (
+        <div>
+          <Card.Text>
+            {desc.split("\n").map((line, index) => (
+              <React.Fragment key={index}>
+                {line}
+                <br />
+              </React.Fragment>
+            ))}
+          </Card.Text>
+          <br />
+          <Card.Text>
+            <span className="text-sm underline decoration-3 decoration-sky-500">
+              {techstack}
+            </span>
+          </Card.Text>
+        </div>
+      )}
+    </>
+  );
+}
 export default JobCard;

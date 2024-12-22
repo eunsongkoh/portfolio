@@ -584,31 +584,31 @@ function App() {
       </div>
       <Element name="about">
         <div className={classes.about}>
-          <h2 className="font-black">About Me</h2>
+          <h2 className="font-black">a b o u t</h2>
           <About />
         </div>
       </Element>
       <Element name="experience">
         <div className={classes.experience}>
-          <h2 className="font-black">Experience</h2>
+          <h2 className="font-black">e x p e r i e n c e</h2>
           <Experience />
         </div>
       </Element>
       <Element name="projects">
         <div className={classes.projects}>
-          <h2 className="font-black">Projects</h2>
+          <h2 className="font-black">p r o j e c t s</h2>
           <Timeline />
         </div>
       </Element>
       <Element name="multimedia">
         <div className={classes.multimedia}>
-          <h2 className="font-black">Multimedia</h2>
+          <h2 className="font-black">m u l t i m e d i a</h2>
           <Multimedia />
         </div>
       </Element>
       <Element name="contact">
         <div className={classes.contact}>
-          <h2 className="font-black">Contact Me</h2>
+          <h2 className="font-black">c o n t a c t </h2>
           <Contact />
         </div>
       </Element>

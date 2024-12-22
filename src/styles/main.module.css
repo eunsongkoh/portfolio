@@ -11,9 +11,11 @@ h1 {
 
 h2 {
   text-align: left;
-  padding-left: 1em;
-  color: #edb5f7;
-  font-size: 2em;
+  padding-left: 0.6em;
+  color: #fffeec;
+  /* color: #edb5f7; */
+  font-size: 2.5em;
+  font-weight: 900;
 }
 
 h3 {
@@ -57,7 +59,7 @@ big {
 .typed {
   justify-content: center;
   text-align: center;
-  padding-right: 2em;
+  padding-right: 1em;
   margin-top: -1em;
 }
 
@@ -69,7 +71,7 @@ big {
 
 .blurb {
   margin: 1em;
-  background-color: rgba(240, 248, 255, 0.064);
+  background-color: rgba(240, 248, 255, 0.008);
   border-radius: 25px;
   padding: 2em;
   backdrop-filter: blur(8px);
@@ -77,11 +79,11 @@ big {
   z-index: 1;
 }
 
-.blurb:hover,
+/* .blurb:hover,
 [class^="devicon-"]:hover,
 [class*=" devicon-"]:hover {
-  background-color: rgba(240, 248, 255, 0.129);
-}
+  background-color: rgba(240, 248, 255, 0.035);
+} */
 
 .exp {
   display: flex;
@@ -118,7 +120,7 @@ big {
 }
 
 .card {
-  background-color: rgba(240, 248, 255, 0.129);
+  background-color: rgba(240, 248, 255, 0.008);
   border-radius: 25px;
   padding: 2em;
   width: 50vw;
@@ -130,9 +132,9 @@ big {
   margin-left: 0em;
 }
 
-.card:hover {
+/* .card:hover {
   background-color: rgba(240, 248, 255, 0.064);
-}
+} */
 [class^="devicon-"],
 [class*=" devicon-"] {
   font-family: "devicon" !important;
@@ -157,7 +159,7 @@ big {
   justify-content: center;
 }
 .multimedia {
-  background-color: rgba(240, 248, 255, 0.064);
+  background-color: rgba(240, 248, 255, 0.008);
   border-radius: 25px;
   margin: 1em;
   justify-content: space-evenly;
@@ -168,9 +170,9 @@ big {
   z-index: 1;
 }
 
-.multimedia:hover {
+/* .multimedia:hover {
   background-color: rgba(240, 248, 255, 0.129);
-}
+} */
 
 .multimedia h4 {
   font-size: 1.2em;
@@ -182,7 +184,7 @@ big {
   font-size: 1.5em;
   color: #eafc88;
   padding: 1em;
-  background-color: rgba(240, 248, 255, 0.064);
+  background-color: rgba(240, 248, 255, 0.008);
   border-radius: 25px;
   margin-left: 1em;
   margin-right: 1em;
@@ -195,9 +197,9 @@ big {
   z-index: 1;
 }
 
-.contactInfo:hover {
+/* .contactInfo:hover {
   background-color: rgba(240, 248, 255, 0.129);
-}
+} */
 
 @media screen and (max-width: 1320px) {
   .video {

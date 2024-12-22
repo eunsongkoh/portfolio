@@ -27,4 +27,11 @@ export const Positions = [
     `• Independently developed a Python App to streamline contract workflows for 200+ employees, reducing on-boarding times by 90% and achieving 100% adoption rate within the HR department while leading a summer student team, resulting in 50% faster and more accurate completion of department projects`,
     "Python"
   ),
+
+  new WorkExperience(
+    "Coursework",
+    "Simon Fraser University",
+    "2022 - 2026",
+    "• CMPT 371 - Data Communications & Networking\n\n• CMPT 354 - Database Systems I: SQL, Microsoft SQL Server\n\n • CMPT 201 - Systems Programming: C\n\n • CMPT 353 - Computational Data Science: Python, Pandas, Numpy, Spark"
+  ),
 ];

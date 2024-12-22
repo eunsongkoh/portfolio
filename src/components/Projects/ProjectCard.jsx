@@ -4,7 +4,7 @@ import { Image } from "@nextui-org/image";
 
 function ProjectCard({ project }) {
   return (
-    <Card className="backdrop-blur-sm rounded-xl bg-white/15 flex flex-col">
+    <Card className="backdrop-blur-sm rounded-xl bg-frosted flex flex-col">
       <CardHeader className="m-2 p-1">
         <b>
           <a
