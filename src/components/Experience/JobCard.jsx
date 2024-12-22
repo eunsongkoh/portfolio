@@ -47,7 +47,7 @@ function Accordian({ desc, techstack }) {
 
   return (
     <>
-      <button onClick={pressed} className="hover:bg-slate-200">
+      <button onClick={pressed}>
         {isOpen ? "> read less" : "> read more"}
       </button>
       {isOpen && (
