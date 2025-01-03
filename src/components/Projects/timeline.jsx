@@ -3,12 +3,28 @@ import ProjectCard from "./ProjectCard";
 function Timeline() {
   const items = [
     {
+      title: "taxMe 🔗",
+      url: "https://github.com/eunsongkoh/tax-me",
+      description:
+        "taxMe is a dynamic grocery tracking application designed to help users manage their budget while shopping. It offers real-time total cart calculations including the item tax, budget tracking, personalized recipe recommendations from an AI-powered chatbot, and the ability to track past purchases!",
+      techstack:
+        "Next.js, Redux, Springboot, Microsoft Azure SQL Server, Java, Typescript",
+      photo: "/img/taxMe.png",
+    },
+    {
       title: "autoM8, Hack the North 2024 🔗",
       url: "https://devpost.com/software/autom8",
       description:
         "An app that allows you to apply edits on a mass amount of files and have them uploaded to the cloud at once with MASV API! It supports functions such as edge detection or video stabilization, as well as a summarizer tool for large CSV's or spreadsheets with Cohere's AI API.",
       techstack: "Next.js, Python, Defang, MASV, Cohere AI API, Typescript",
       photo: "/img/autom8.jpg",
+    },
+    {
+      title: "Roblox Reminder",
+      description:
+        "An email reminder system built with C++ that notifies you on the price of Roblox catalog items! ",
+      techstack: "C++, Boost.Asio, libcurl, Docker",
+      photo: "/img/roblox.png",
     },
     {
       title: "Raccoon Spotter",
@@ -48,26 +64,26 @@ function Timeline() {
       teckstack: "React.js, HTML/CSS",
       photo: "/img/DNSPoster.png",
     },
-    {
-      title: "AutoFill PDF",
-      cardTitle: "AutoFill PDF",
-      description:
-        "A Python program I independently developed during my time at NCI as a seasonal student to help automate their onboarding contracts for the HR Department",
-      techstack: "Python",
-      media: {
-        source: {
-          url: "/img/password.png",
-        },
-        type: "IMAGE",
-      },
-    },
-    {
-      title: "Password Manager",
-      url: "https://github.com/eunsongkoh/passwordVault.py",
-      description: "A Python application that stores a database of passwords",
-      techstack: "Python, SQLite3, Tkinter, HashLib",
-      photo: "/img/password.png",
-    },
+    // {
+    //   title: "AutoFill PDF",
+    //   cardTitle: "AutoFill PDF",
+    //   description:
+    //     "A Python program I independently developed during my time at NCI as a seasonal student to help automate their onboarding contracts for the HR Department",
+    //   techstack: "Python",
+    //   media: {
+    //     source: {
+    //       url: "/img/password.png",
+    //     },
+    //     type: "IMAGE",
+    //   },
+    // },
+    // {
+    //   title: "Password Manager",
+    //   url: "https://github.com/eunsongkoh/passwordVault.py",
+    //   description: "A Python application that stores a database of passwords",
+    //   techstack: "Python, SQLite3, Tkinter, HashLib",
+    //   photo: "/img/password.png",
+    // },
     {
       title: "Kode with Klossy Data Science Scholar 2022",
       description:
